@@ -1,0 +1,94 @@
+section{
+	padding-bottom:80px;
+}
+
+.customerRelationsHeading{
+	font-family:times new roman;
+	text-align:center;
+	color:#4d2800;
+	text-transform:uppercase;
+	font-weight:normal;
+	line-height:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.customerRelationsContent{
+	font-family:times new roman;
+	color:#4d2800;
+	text-align:center;
+	padding:15px 15px 30px 15px;
+}	
+
+.customerRelationsData{
+	width:200px;
+	text-align:right;
+	padding:10px 20px 10px 10px;	
+	box-sizing: border-box;
+	color:#4d2800;
+}
+
+input[type="text"],[type="email"]{
+	width:200px;
+	outline:none;
+	padding:5px;
+	margin:5px;
+	border: 1px solid #ccc;
+	border-radius:3px;
+	box-sizing: border-box;
+}
+
+textarea{
+	width:200px;
+	outline:none;
+	padding:5px;
+	margin:5px;
+	border: 1px solid #ccc;
+	border-radius:3px;
+	box-sizing: border-box;
+}
+
+#submitButton{
+	text-align:center;
+}
+
+#submitButton td{
+	padding-top:20px;
+	padding-bottom:20px;
+	box-sizing: border-box;
+}
+
+/*input[type="submit"]{
+	background-color:#cc0000;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:15px 25px 15px 25px;
+	border-radius:3px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}*/
+
+button{
+	background-color:#cc0000;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:15px 25px 15px 25px;
+	border-radius:3px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}
+
+/*input[type="submit"]:hover{
+	background-color:#990000;
+}*/
+
+button:hover{
+	background-color:#990000;
+}
+
+
+

@@ -1,0 +1,104 @@
+h2{
+	font-family:times new roman;
+	text-align:center;
+	color:#4d2800;
+	text-transform:uppercase;
+	font-weight:normal;
+	line-height:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+span{
+	font-size:18px;
+}
+
+.menuContainer{
+	position:relative;
+	max-width:15%;
+	margin:0 auto;
+	float:left;
+	margin:8px;
+	box-sizing:border-box;
+}
+
+.menuContainer img{
+	vertical-align:middle;
+	width:100%;
+	margin:10px 20px 20px 20px;
+	height:500px;
+	box-sizing:border-box;
+}
+
+.menuContainer .content{
+	position:absolute;
+	bottom:0;
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.4);
+	color:#f1f1f1;
+	width:100%;
+	height:500px;
+	padding:20px;
+	margin:20px;
+	cursor:pointer;
+	box-sizing:border-box;
+}
+
+.menuContainer .content p{
+	text-align:center;
+	font-family:times new roman;
+	font-size:30px;
+	text-transform:uppercase;
+	position:relative;
+	line-height:80%;
+	top:40%;
+}
+
+#pastaListShow{
+	list-style-type:none;
+	text-align:center;
+	padding:20px 15px 15px 15px;
+	font-size:14px;
+}
+
+#bakeryListShow{
+	list-style-type:none;
+	text-align:center;
+	padding:20px 15px 15px 15px;
+	font-size:14px;
+}
+
+#pastryListShow{
+	list-style-type:none;
+	text-align:center;
+	padding:20px 15px 15px 15px;
+	font-size:14px;
+}
+
+#saladListShow{
+	list-style-type:none;
+	text-align:center;
+	padding:20px 15px 15px 15px;
+	font-size:14px;
+}
+
+#pizzaListShow{
+	list-style-type:none;
+	text-align:center;
+	padding:20px 15px 15px 15px;
+	font-size:14px;
+}
+
+#grabNgoListShow{
+	list-style-type:none;
+	text-align:center;
+	padding:20px 15px 15px 15px;
+	font-size:14px;
+}
+
+
+
+
+
+
+

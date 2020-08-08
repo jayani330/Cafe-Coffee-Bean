@@ -1,0 +1,14 @@
+h2{
+	font-family:times new roman;
+	text-align:center;
+	color:#4d2800;
+	text-transform:uppercase;
+	font-weight:normal;
+	line-height:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+span{
+	font-size:18px;
+}

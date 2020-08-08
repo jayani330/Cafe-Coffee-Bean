@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coffee Bean Menu</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles\myStyles.css">
+		<link rel="stylesheet" href="styles\menuStyles.css">
+		<link rel="stylesheet" href="styles\font-awesome.min.css">
+	</head>
+	
+	<body>
+		<!-- <header></header> -->
+		
+		<nav>
+			<div><img id="logo" src="Images\logo2.jpg"></div>
+			<br>
+		
+			<ul>
+				<li><a href="index.php"> &nbsp home</a></li>
+				<li><a href="storeLocation.html"> &nbsp store location</a></li>
+				<li><a href="menu.html"> &nbsp our menu</a></li>
+				<li><a href="coffee.html">&nbsp coffee</a></li>
+				<!-- <li><a href="essentials.html"> &nbsp essentials</a></li> -->	
+				<li><a href="contact.php"> &nbsp contact us</a></li>
+				<li><a href="about.html"> &nbsp about us</a></li>
+			</ul>
+		</nav>
+		
+		<section>
+			<h2><span>welcome for</span><br>our menu</h2>
+		</section>
+		
+		<section>
+			<div class="menuContainer">
+				<img src="Images/pasta.jpeg" alt="image">
+				
+				<div class="content" onclick="pasta()">
+					<p id="pasta">Pasta</p>
+					<div id="pastaListShow"></div>
+					
+					<ul id="pastaList" style="list-style-type:none;display:none;">
+						<li>Chicken & Mushroom Pasta</li>
+						<li>Chicken Bolognaise</li>
+						<li>Chicken Lasagne</li>
+						<li>Cream Mushroom Pasta</li>
+						<li>Spicy Tuna Pasta</li>
+						<li>Tomata & Herb Pasta</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="menuContainer">
+				<img src="Images/bakery.jpg" alt="image">
+				
+				<div class="content" onclick="bakery()">
+					<p id="bakery">Bakery</p>
+					<div id="bakeryListShow"></div>
+					
+					<ul id="bakeryList" style="list-style-type:none;display:none;">
+						<li>Banana Bread</li>
+						<li>Chicago Cheesecake Batch</li>
+						<li>Blueberry Cheesecake</li>
+						<li>Double Chocolate Cheesecake</li>
+						<li>Date Cake</li>
+						<li>Chocolate Fudge Cake</li>
+						<li>Mud Cake</li>
+						<li>Carrot Cake Batch</li>
+						<li>Coffee Cream Cake</li>
+						<li>Chocolate Macaroon</li>
+						<li>Raspberry Macaroon</li>
+						<li>Coffee Macaroon</li>
+						<li>Blueberry Macaroon</li>
+						<li>Chocolate Chip Muffin</li>
+						<li>Triple Choc Muffin</li>
+						<li>Blueberry Muffin Crumble</li>
+						<li>Chocolate Brownie</li>
+						<li>Double Chocolate Cookie</li>
+						<li>Dark Chocolate Cookie</li>
+						<li>Ham & Cheese Croissants</li>
+						<li>Black Forest Swiss Roll</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="menuContainer">
+				<img src="Images/pastries.jpg" alt="image">
+				
+				<div class="content" onclick="pastry()">
+					<p id="pastry">Pastry</p>
+					<div id="pastryListShow"></div>
+					
+					<ul id="pastryList" style="list-style-type:none;display:none;">
+						<li>Chicken Curry Puff</li>
+						<li>Tuna Puff</li>
+						<li>Chicken Quiche</li>
+						<li>Vegetable Quiche</li>
+						<li>Cream Cheese Bagel</li>
+						<li>Eggs Benedict</li>
+						<li>Ham,Egg & Cheese Muffin</li>
+						<li>Egg & Salmon Muffin</li>
+						<li>Salmon Scramble</li>
+						<li>Tasty Toast</li>
+						<li>Waffles</li>
+						<li>Berry Granola</li>
+						<li>Honey Granola</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="menuContainer">
+				<img src="Images/salad.jpg" alt="image">
+				
+				<div class="content" onclick="salad()">
+					<p id="salad">Salad</p>
+					<div id="saladListShow"></div>
+					
+					<ul id="saladList" style="list-style-type:none;display:none;">
+						<li>Chicken Caesar</li>
+						<li>Greek Salad</li>
+						<li>Nicoise Salad</li>
+						<li>Egg Salad</li>
+						<li>Salmon & Cheese Salad</li>
+						<li>Ham & Vegetable Salad</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="menuContainer">
+				<img src="Images/pizza.jpg" alt="image">
+				
+				<div class="content" onclick="pizza()">
+					<p id="pizza">Pizza</p>
+					<div id="pizzaListShow"></div>
+					
+					<ul id="pizzaList" style="list-style-type:none;display:none;">
+						<li>Tandoori Chicken Pizza</li>
+						<li>Cheese Pizza</li>
+						<li>Cheese & Ham Pizza</li>
+						<li>Arrabiata Pizza</li>
+						<li>Margarita Pizza</li>
+						<li>Mediterranean Pizza</li>
+						<li>Cheese & Sausage Pizza</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="menuContainer">
+				<img src="Images/sandwich.jpeg" alt="image">
+				
+				<div class="content" onclick="grabNgo()">
+					<p id="grabNgo">Grab 'N<br>Go</p>
+					<div id="grabNgoListShow"></div>
+					
+					<ul id="grabNgoList" style="list-style-type:none;display:none;">
+						<li>Ham & Cheese Smoked Beef Sandwich</li>
+						<li>Tuna Sandwich</li>
+						<li>Cheese & Tomato Sandwich</li>
+						<li>Salmon Sandwich</li>
+						<li>Tandoori Chicken Sandwich</li>
+						<li>Egg Club Sandwich</li>
+						<li>Cheddar Chicken Melt</li>
+						<li>Salmon Bagel</li>
+						<li>Curried Chicken Wrap</li>
+						<li>Rosemary Chicken Wrap</li>
+						<li>Tuna Mixed Wrap</li>
+						<li>Tandoori Chicken Wrap</li>
+						<li>Chicken Burger</li>
+						<li>Grilled Vegetable Wrap</li>
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="container">
+				<div class="containerColumn">
+					<h3>about us</h3>
+					<div>
+						<ul>
+							<li><a href="#tags" alt="tags">Tags</a></li>
+							<li><a href="#support" alt="support">Support</a></li>
+							<li><a href="#terms" alt="terms">Terms & conditions</a></li>
+							<li><a href="#privacyPolicy" alt="privacyPolicy">Privacy policy</a></li>
+							<li><a href="#copyrightNotifications" alt="copyrightNotifications">Copyright notifications</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="containerColumn">
+					<h3>contact us</h3>
+					
+					<div class="contact">
+						<p>Address:<br>No.61,<br>Dalada Veediya,<br>Kandy,<br>Sri Lanka.</p>
+					</div>
+					
+					<div class="contact">
+						<p>Telephone:<br>0812503850</p>
+					</div>
+					
+					<div class="contact">
+						<p>Fax:<br>0812503850</p>
+					</div>
+				
+					<div class="contact">
+						<p>Email:<br>cafecoffeebean@gmail.com</p>
+					</div>
+					
+				</div>
+				
+				<div class="containerColumn">
+					<h3>follow us</h3>
+					<div>
+						<ul>
+							<li>
+								<a href="#">
+									<img class="fa fa-facebook" src="Images\Facebook.png" style="width:40px; height:40px; text-align:center; border-radius:50%; box-sizing:border-box;">
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<img class="fa fa-twitter" src="Images\twitter.png" style="width:40px; height:40px; text-align:center; border-radius:50%; box-sizing:border-box;">
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<img class="fa fa-google" src="Images\google.jpg" style="width:40px; height:40px; text-align:center; border-radius:50%; box-sizing:border-box;">
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<img class="fa fa-youtube" src="Images\youtube.png" style="width:40px; height:40px; text-align:center; border-radius:50%; box-sizing:border-box;">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="containerColumn">
+					<h3>newsletter</h3>
+					<div class="newsletter">
+						<p>Sign up for the newsletter and be the first to get the most of news, videos, product updates and more. 
+						You can unsubscribe at any time.</p>
+					
+						<form>
+							<input type="email" name="email" id="email" placeholder="Enter Email">
+							<button id="signup">Sign up</button>
+						</form>	
+					</div>
+				</div>
+				
+			</div>
+			
+			<div>
+				<img src="Images\coffeebeans.jpg" style="width:100%;height:280px;position:relative;bottom:-5px">
+				<div id="footerbottom">&copy2018 All Rights Reserved</div>
+			</div>
+			
+		</footer>
+		
+		<script src="javaScriptFiles\menu.js"></script>
+	
+	</body>
+</html>
